@@ -1,12 +1,35 @@
-# Reinforcement Learning: Teaching a Quadcopter to FLy
-## Udacity Deep Learning Nanodegree
-Training a quadcopter to fly by using reinforcement learning.
-# How to run:
-1) Install pip
-2) Install jupyter notebooks through pip in the command line: "pip3 install jupyter"
-3) Clone this repo
-4) Move into this repo in the command line
-5) Run "jupyter notebook" in the command line
-6) You can run the notebook by just running all the blocks of code to see the statistics of how well the drone would perform
-7) Alternatively, you can run "python physics_sim.py" and you can see the visualization of how well the drone would perform
-    * If you use the simulator, you don't need to install or run jupyter notebooks
+# Deep RL Quadcopter Controller
+
+*Teach a Quadcopter How to Fly!*
+
+In this project, you will design an agent to fly a quadcopter, and then train it using a reinforcement learning algorithm of your choice! 
+
+## Project Instructions
+
+1. Clone the repository and navigate to the downloaded folder.
+
+```
+git clone https://github.com/udacity/RL-Quadcopter-2.git
+cd RL-Quadcopter-2
+```
+
+2. Create and activate a new environment.
+
+```
+conda create -n quadcop python=3.6 matplotlib numpy pandas
+source activate quadcop
+```
+
+3. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `quadcop` environment. 
+```
+python -m ipykernel install --user --name quadcop --display-name "quadcop"
+```
+
+4. Open the notebook.
+```
+jupyter notebook Quadcopter_Project.ipynb
+```
+
+5. Before running code, change the kernel to match the `quadcop` environment by using the drop-down menu (**Kernel > Change kernel > quadcop**). Then, follow the instructions in the notebook.
+
+6. You will likely need to install more pip packages to complete this project.  Please curate the list of packages needed to run your project in the `requirements.txt` file in the repository.
