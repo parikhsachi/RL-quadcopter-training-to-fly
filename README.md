@@ -9,5 +9,5 @@
 ```
 jupyter notebook Quadcopter_Project.ipynb
 ```
-5. Before running anything, change the kernel to match the `quadcop` environment by using the drop-down menu, and then follow the instructions in the notebook.
+5. Before running anything, change the kernel to match the environment by using the drop-down menu, and then follow the instructions in the notebook.
 
