@@ -1,9 +1,5 @@
 # Deep RL Quadcopter Controller
 
-*Teach a Quadcopter How to Fly!*
-
-In this project, you will design an agent to fly a quadcopter, and then train it using a reinforcement learning algorithm of your choice! 
-
 ## Project Instructions
 
 1. Clone the repository and navigate to the downloaded folder.
